@@ -19,7 +19,6 @@ A minimal Node.js starter for running a [Bright Data Scraper Studio](https://bri
 - [How it works](#how-it-works)
 - [Examples](#examples)
 - [Output](#output)
-- [Security](#security)
 - [Support](#support)
 - [License](#license)
 
@@ -166,12 +165,6 @@ saveResults(data, 'my_run.json');
 
 - Results are saved as JSON files named `scraper_studio_results_<ISO timestamp>.json`.
 - The file contains the raw collector output: one record per input URL by default.
-
----
-
-## Security
-
-Never commit your `.env` file. The shipped `.gitignore` blocks `.env` and `.env.local`. To report a vulnerability, see [SECURITY.md](SECURITY.md).
 
 ---
 
